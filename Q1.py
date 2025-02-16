@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5, 6])
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+print("Spliiting an array")
+newarr = np.array_split(arr, 3)
+print(newarr)
+print("Joining Array")
+arr = np.concatenate((arr1, arr2))
+print(arr)
